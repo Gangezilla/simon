@@ -1,0 +1,87 @@
+html, body {
+  height:100%;
+  background-color: #666666;
+}
+
+.outerRing {
+  background-color:red;
+  border-top-left-radius:100%;
+  border-top-right-radius:100%;
+  border-bottom-left-radius:100%;
+  border-bottom-right-radius:100%;
+  width:550px;
+  height:550px;
+  position:absolute;
+  z-index:0;
+  background-color: #666666;
+    margin-left:260px;
+  margin-top:-25px;
+}
+
+.simon { /* simon is the one you use to alter the container class/all four things simultaneously */
+  margin-top:50px;
+  
+}
+
+.container {
+}
+
+.middle {
+  background-color:#dddddd;
+  height:200px;
+  width:200px;
+    border-top-left-radius:100%;
+  border-top-right-radius:100%;
+  border-bottom-left-radius:100%;
+  border-bottom-right-radius:100%;
+  position:absolute;
+  z-index:1;
+  margin-left:130px;
+  margin-top:-90px;
+}
+
+
+#green {
+  height: 250px;
+  width:250px; 
+  background-color:#2DCB4E;
+  border-top-left-radius:100%;
+}
+
+#red {
+  height: 250px;
+  width:250px; 
+  background-color:#9F0F17;
+  border-top-right-radius:100%;
+  border-left:10px solid #666666;
+}
+
+#blue {
+  height: 250px;
+  width:250px; 
+  background-color:#039DF2;
+  border-bottom-left-radius:100%;
+  border-top:10px solid #666666;
+  border-right:10px solid #666666;
+}
+
+#yellow {
+  height: 250px;
+  width: 250px; 
+  background-color:#FCDF19;
+  border-bottom-right-radius: 100%;
+  border-top:10px solid #666666;
+}
+
+.counter {
+  background-color:red;
+  margin: 0 auto;
+  width:40%;
+  height:50px;
+  margin-top:30px;
+  margin-left:60px;
+}
+
+.counterText {
+  text-align:center;
+}
