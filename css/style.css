@@ -23,8 +23,7 @@ html, body {
   
 }
 
-.container {
-}
+
 
 .middle {
   background-color:#dddddd;
@@ -38,13 +37,14 @@ html, body {
   z-index:1;
   margin-left:130px;
   margin-top:-90px;
+  border:10px solid #666666;
 }
 
 
 #green {
   height: 250px;
   width:250px; 
-  background-color:#2DCB4E;
+  background-color:#00A74A;
   border-top-left-radius:100%;
 }
 
@@ -59,7 +59,7 @@ html, body {
 #blue {
   height: 250px;
   width:250px; 
-  background-color:#039DF2;
+  background-color:#094A8F;
   border-bottom-left-radius:100%;
   border-top:10px solid #666666;
   border-right:10px solid #666666;
@@ -68,10 +68,18 @@ html, body {
 #yellow {
   height: 250px;
   width: 250px; 
-  background-color:#FCDF19;
   border-bottom-right-radius: 100%;
   border-top:10px solid #666666;
 }
+
+.yellowUnclicked{
+  background-color:#CCA707;
+}
+
+.yellowClicked {
+  background-color: #FED39F;
+}
+
 
 .counter {
   background-color:red;
@@ -79,9 +87,38 @@ html, body {
   width:40%;
   height:50px;
   margin-top:30px;
-  margin-left:60px;
+  margin-left:55px;
 }
 
 .counterText {
   text-align:center;
+}
+
+.onButton {
+  height:35px;
+  width:35px;
+  background-color:blue;
+  margin-left:35px;
+  border-radius:50%;
+ 
+}
+
+.startReset {
+  height:35px;
+  width:35px;
+  background-color:green;
+  margin-left:5px;
+  border-radius:50%;
+}
+
+.strict {
+  height:35px;
+  width:35px;
+  background-color:orange;
+  margin-left:5px;
+  border-radius:50%;
+}
+
+#buttonText {
+  color:white;
 }
